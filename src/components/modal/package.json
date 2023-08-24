@@ -1,0 +1,45 @@
+{
+  "name": "stan-modal-v2",
+  "version": "1.1.9",
+  "description": "v2 of Stan Modal",
+  "main": "dist/Modal.js",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madlyfox/stan_modal_final.git"
+  },
+  "keywords": [
+    "stan",
+    "formation",
+    "modal"
+  ],
+  "author": "stan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madlyfox/stan_modal_final/issues"
+  },
+  "homepage": "https://github.com/Madlyfox/stan_modal_final#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/plugin-syntax-jsx": "^7.22.5",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

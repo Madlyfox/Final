@@ -1,0 +1,50 @@
+.container {
+  main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .table {
+      .table_control {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        select {
+          margin: 0 5px;
+          color: white;
+          background-color: #151515;
+          border: 1px solid lightgray;
+          border-radius: 5px;
+          height: 30px;
+          &:focus {
+            outline: none !important;
+            border: 1px solid rgb(168, 113, 168);
+            box-shadow: 0 0 10px rgb(168, 113, 168);
+          }
+        }
+      }
+      table {
+        width: 900px;
+        border-collapse: collapse;
+        overflow-y: scroll;
+        thead {
+          th {
+            text-align: left;
+            border-bottom: 1px solid white;
+            padding: 15px;
+          }
+        }
+        tbody {
+          td {
+            text-align: left;
+            border-bottom: 1px solid white;
+            height: 50px;
+            padding: 15px;
+          }
+          td:hover {
+            color: rgb(168, 113, 168);
+          }
+        }
+      }
+    }
+  }
+}
